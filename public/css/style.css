@@ -1,0 +1,134 @@
+.header-custom {
+    /* background-color: #393536; */
+    padding-top: calc(7rem + 15px);
+    padding-bottom: 7rem;
+    background: linear-gradient(0deg, #393536 0%, #3d3d3d 100%);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.header-custom h1 {
+    font-size: 100px;
+}
+
+.img-custom {
+    width: 65%;
+    margin-bottom: 30px;
+}
+
+.btn-custom {
+    background-color: #f9a72b;
+    color: #444444;
+}
+
+.fa-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-custom {
+    font-size: 200px;
+    color: rgb(253, 195, 0);
+}
+
+.img-preview {
+    box-shadow: 5px 5px 5px #888888;
+    width: 100%;
+}
+
+.div-img-preview {
+    position: relative;
+    margin: 10px 10px 10px 10px;
+}
+
+.img-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+
+.marker-block {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    /* makes the div a circle */
+    background-color: #666666;
+    color: white;
+    font-size: 20px;
+    line-height: 32px;
+    /* centers the text vertically */
+    text-align: center;
+    /* centers the text horizontally */
+    transition: all 0.3s ease-in-out;
+}
+
+.marker-block:hover {
+    box-shadow: 0 0 15px rgb(207, 207, 4);
+    /* adds a yellow glow to the div on hover */
+    z-index: 99;
+    /* sets the div to the front on hover */
+}
+
+.card-counter {
+    position: relative;
+    box-shadow: 2px 2px 10px #DADADA;
+    margin: 5px;
+    padding: 20px 10px;
+    background-color: #fff;
+    height: 100px;
+    border-radius: 5px;
+    transition: .3s linear all;
+}
+
+.card-counter:hover {
+    box-shadow: 4px 4px 20px #DADADA;
+    transition: .3s linear all;
+}
+
+.card-counter.primary {
+    background-color: #007bff;
+    color: #FFF;
+}
+
+.card-counter.danger {
+    background-color: #ef5350;
+    color: #FFF;
+}
+
+.card-counter.success {
+    background-color: #66bb6a;
+    color: #FFF;
+}
+
+.card-counter.info {
+    background-color: #26c6da;
+    color: #FFF;
+}
+
+.card-counter i {
+    font-size: 5em;
+    opacity: 0.2;
+}
+
+.count-numbers {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 32px;
+    font-weight: 800;
+    display: block;
+}
+
+.count-name {
+    position: absolute;
+    right: 35px;
+    top: 65px;
+    font-style: italic;
+    text-transform: capitalize;
+    opacity: 0.7;
+    display: block;
+    font-size: 18px;
+}
